@@ -1,0 +1,87 @@
+#PokeZoom {
+    background-color: cadetblue;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+  font-size: 16pt;
+  flex: 1 1 auto;
+  align-items: center;
+}
+
+#zoombackarrow{
+    float: left;
+    background-color: cadetblue;
+    margin-left: 5%;
+    margin-top: 15px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    padding: 6px;
+    transform: rotate(135deg);
+  }
+  #zoombackarrow:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -4.5px;
+    bottom: 3.5px;
+    border-width: 0;
+    background: white;
+    width: 18px;
+    height: 4px;
+    transform: rotate(45deg);
+  }
+
+#ZoomTable {
+  background: white;
+  width: 90%;
+  height: 90%;
+  align-items: center;
+  padding: 2.5%;
+}
+
+.types {
+  border: 2px;
+  border-color: black;
+}
+
+.profile {
+  background-color: cadetblue;
+  color: white;
+  width: 100%;
+}
+
+.statbar {
+  white-space: nowrap;
+  height: 8px;
+  width: 1000px;
+  background-color: khaki;
+  padding: 10px;
+  border: 3px;
+  border-color: khaki;
+}
+
+.zoomname {
+    margin-top: 5px;
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.zoomid {
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+}
+
+.topbar {
+    color: cadetblue;
+    font-size: xx-large;
+    width: 100%;
+}
+
+.ZoomImage {
+    position: absolute;
+    right: 10px;
+}
